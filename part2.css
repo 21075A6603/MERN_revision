@@ -1,0 +1,52 @@
+.classTest{
+          color: blue;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          background-color: aqua;
+
+}
+div.p{
+          color: azure;
+}
+table{
+          padding-left: 200;
+
+}
+#idTest{
+          color: brown;
+          background-color:yellowgreen;
+          font-family: cursive;
+
+}
+#block1{
+          font-weight: 800;
+          color: blueviolet;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#block2{
+
+
+color:red;
+font-style: oblique;
+font-weight: 700;
+font-size: x-large;
+}
+.mainblock{
+background-color: aquamarine;
+}
+
+#vbg{
+          background: url(WhatsApp\ Video\ 2024-12-12\ at\ 19.10.23.mp4) no-repeat;
+          background-size: cover;
+}
+progress[value]{
+          width: 250px;
+          height: 50px;
+}
+progress[value]{
+          -webkit-appearance:none;
+          appearance: none;
+
+}
+progress[value]::-webkit-progress-bar{
+          background-color:wheat;
+}

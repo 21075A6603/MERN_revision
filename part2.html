@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Part 2</title>
+          <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+          <p>last part upto lists complete now contd...</p>
+          <h1>part 2</h1>
+          <h2><mark> table of contents:</mark></h2>
+
+          <ol type="i">
+                    <a href="#t1"><li>table</li></a>
+          </ol>
+          <h1 id="t1">table</h1>
+          <table>
+                    <tr>
+                              <th>heading 1</th>
+                              <th>heading 2</th>
+                              <th>heading 3</th>
+                    </tr>
+                    <tr>
+                              <td>row1 col1</td>
+                              <td>row1 col2</td>
+                              <td>row1 col3</td>
+                    </tr>
+                    <tr>
+                              <td>row2 col1</td>
+                              <td>row2 col2</td>
+                              <td>row2 col3</td>
+                    </tr>
+                    <tr>
+                              <td>row3 col1</td>
+                              <td>row3 col2</td>
+                              <td>row3 col3</td>
+                    </tr>
+          </table>
+
+          <dl><mark><b>spanning of table rows and columns</b></mark>
+                    <h2><dd><u><i>row span and colspan</i></u></dd></h2>
+                    
+
+                    <table>
+                              <caption>basic table example</caption>
+                              <thead>
+                              <tr>
+                                        <th>head 1</th>
+                                        <th>head 2</th>
+                                        <th>head 3</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                        <td rowspan="2">hi iam azar</td>
+                                        <td>AIML</td>
+                                        <td>vnr vnrvjiet</td>
+                              </tr>
+                              <tr>
+                                        <td>jntuh</td>
+                                        <td>kphb</td>
+                              </tr>
+                              <tr>
+                                        <td>anoop</td>
+                                        <td colspan="2">snistghtkesar</td>
+                              </tr>
+                              </tbody>
+                              <tfoot>
+                                        <tr>
+                                                  <td>foot1</td>
+                                                  <td>foot 2</td>
+                                                  <td>foot3</td>
+                                        </tr>
+                              </tfoot>
+
+                    </table>
+          </dl>
+          <h3>col grouping</h3>
+          <table>
+                    <tr>
+                              <td></td>
+                              <th scope="col">heading1</th>
+                              <th scope="col">heading2</th>
+                    </tr>
+                    <tr>
+                              <th scope="row">row1</th>
+                              <td></td>
+                              <td></td>
+                    </tr>
+                    <tr>
+                              <th scope="row">row2</th>
+                              <td></td>
+                              <td></td>
+                    </tr>
+          </table>
+
+          <h1><mark>class and id</mark></h1>
+          <div class="classTest">
+                    <h3>heading 3 to test the classs</h3>
+                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                               Rerum iusto eveniet quis sapiente 
+                              tempore cum debitis dolores quam a, quae, 
+                              recusandae eos voluptate rem eum molestiae quibusdam.
+                               Recusandae, earum atque.</i></p>
+                               <table>
+                                        <thead>
+                                                  <tr>
+                                                            <th>hno</th>
+                                                            <th>name</th>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>21075A6603</td>
+                                                            <td>mohammad azar</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>20035A6630</td>
+                                                            <td>muthoju sanath</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>2199877823</td>
+                                                            <td>somthing xxxx</td>
+                                                  </tr>
+                                                  
+                                        </thead>
+                               </table>
+          </div>
+          <h2 id="idTest">id testing</h2>
+          <h1>testing java script</h1>
+
+          <script>
+                    document.write("hello azar")
+          </script>
+
+          <h1><mark>images</mark></h1>
+          <picture>
+          <source media="">
+          <img src="IMG_20210117_120523.jpg" alt="affan pic" height="200">
+          </picture>
+
+
+          <h1>input control elements</h1>
+          <label for="name">username</label>
+          <input type="text" name="user name" id="name" placeholder="email/phoneno" size="25">
+          <br>
+          <h3>check box testing</h3>
+          <ol>
+                    <li><input type="checkbox" name="" id="skill"><label for="skill"> programming</label></li>
+                    <li><input type="checkbox" id="comm"><label for="comm">communication</label></li>
+                    <li><input type="checkbox" checked><label for="">dancing</label></li>
+
+          </ol>
+          <h2>radion buttons</h2>
+          <label for=""><u><mark>gander</mark></u></label><br>
+          <input type="radio" id="mail"><label for="mail">mail</label>
+          <input type="radio" id="fm"><label for="fm">femail</label>
+          <input type="radio" id="nts"><label for="bts">not to say</label><br>
+          <input type="radio" disabled><label for="">all the above</label>
+
+          <fieldset>
+
+                    <legend>color set</legend>
+                    <p>
+                              <input type="radio" name="color" id="red" value="#F00">
+                              <label for="red">Red</label>
+                    </p>
+                    <p>
+                              <input type="radio" name="" id="green" value="#0F0">
+                              <label for="green">green</label>
+                    </p>
+                    <label for="num">enter number</label><input type="text" min="100" max="1000" size="6" id="num">
+                    <input pattern="\d*" title="enter only numbers">
+                    <input type="file" accept="image/*">
+                    <input type="email"><label for=""> email</label>
+                    <input type="submit" value="Publish">
+                    <input type="submit" value="save">
+                    <input type="color"><label for="">choose color</label><br>
+                    <input type="date"><label for="">date</label>
+                    <input type="password"><label for="">password</label>
+                    <input type="number" autocomplete="address-level1" autofocus><label for="">phone</label>
+                    <input type="range"><label for="">select range</label>
+                    <input type="date">
+                    <input type="time">
+                    <input type="datetime-local">
+                    <input type="month">
+                    <input type="week">
+                    <br><br>
+                    <input type="checkbox" required><label for="">i agree</label>
+                    <label>
+                              <input type="radio" name="color" value="#F00">
+                              Red
+                              </label>
+                              <button type="button" onclick="alert('hello world')"> click on me</button>
+
+                              <input type="reset" value="reset"><br>
+                              <label for="">googel search</label>
+                              <input type="search">
+                              <input type="url"><label for="">home page</label>
+
+          </fieldset>
+
+          <form target="_blank">
+                    <input type="text"><label for="">user name</label>
+          </form>
+
+          <div class="mainblock">
+                    <div id="block1">
+                              <h3>first block</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!</p>
+
+                    </div>
+                    <div id="block2">
+                              <h3>block 2</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+          </div>
+<h1></h1>
+<h1><mark>sectioning elements:nav bar</mark></h1>
+          <nav>
+                    <a href="">google</a>
+                    <a href="">yahoo</a>
+                    <a href="">edge</a>
+
+          </nav>
+          <nav role="navigation">
+                    <ul>
+                              <li><a href="">google</a></li>
+                              <li><a href="">yahpp</a></li>
+                              <li><a href="">opera</a></li>
+                    </ul>
+          </nav>
+
+
+          <h1>media elements</h1>
+          <h3>audio</h3>
+          <audio controls>
+                    <source src="Channa Mereya - PagalWorld.co.mp3" type="audio/mp3">
+                    your browser does not support the audio elements
+          </audio>
+          <br>
+
+          <video width="500" height="500" controls>
+                    <source src="WhatsApp Video 2024-12-12 at 19.10.23.mp4" type="video/mp4">
+                    your browser does nt support the vedio elements
+          </video>
+          <br>
+
+          <video width="300" height="500" src="WhatsApp Video 2024-12-12 at 19.10.23.mp4" controls poster="WhatsApp Image 2024-11-21 at 18.42.23.jpeg" muted id="vbg">
+
+          </video>
+<br>
+<progress value="22" max="100"></progress>
+
+
+<h1>selection menu controls:</h1>
+<select name="" id="">
+          <option value="1">one</option>
+          <option value="2">two</option>
+          <option value="3">three</option>
+          <option value="4">four</option>
+          <option value="5">five</option>
+</select>
+<select multiple>
+          <option value="">c++</option>
+          <option value="">java</option>
+          <option value="">python</option>
+</select>
+<select name="" id="">
+          <option value="" selected>choose one</option>
+          <option value="">azar</option>
+          <option value=""> anoop</option>
+          <option value="">varun</option>
+          <option value="">murali</option>
+          <option value="">saiteja</option>
+</select>
+<select name="" id="">
+          <option value="" selected>grossories</option>
+          <option value="">milk</option>
+          <optgroup label="fruits">
+                    <option value="">banana</option>
+                    <option value="">apple</option>
+                    <option value="">pineapple</option>
+          </optgroup>
+          <optgroup label="vegetables">
+                    <option value="">brinjal</option>
+                    <option value="">ladies finger</option>
+                    <option value="">potato</option>
+          </optgroup>
+</select>
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="part2.js"></script>
+<!-- <script type="module" src=""></script> -->
+</body>
+</html>
