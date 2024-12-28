@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Rubik+Vinyl&display=swap');
+
+/* *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+} */
+h1{
+          margin: 1rem;
+          border: 2px  solid red;
+          width: 100%;
+          font-size: 2rem;
+          padding: 0.5rem;
+
+
+}
+
+h3{
+          border: 2px solid blue;
+          font-size: 3rem;
+          padding-left: 0.5rem;
+          width: 50%;
+          border-top: 10px double red;
+          border-bottom: 10px double red;
+          border-left: 5px dotted green;
+          border-right: 5px dashed green;
+          margin-left: 3rem;
+          margin-top: 25px;
+          outline: 5px solid blueviolet;
+          outline-offset: 10px;
+}
+.container{
+          margin: 1.5rem;
+          border: 1px dashed green;
+          font-size: 1.5rem;
+          padding: 0.5em;
+}
+.circle1{
+          background-color: gold;
+          width: 100px;
+          height: 100px;
+          outline: 2px solid red;
+          margin: 2rem auto;
+          border: 1px solid black;
+          border-radius: 10%;
+
+}
+.circle2{
+          background-color: gold;
+          width: 100px;
+          height: 100px;
+          outline: 2px solid red;
+          margin: 2rem auto;
+          border: 1px solid black;
+          border-radius: 50px;
+
+}
+
+.container2{
+          padding: 20%;
+          /* margin: 10rem auto; */
+          font-size: 1.5rem;
+
+
+}
+input,button{
+          font: inherit;
+          color: purple;
+}
+.under{
+          text-decoration: underline;
+          text-transform: capitalize;
+          text-align: center;
+          line-height: 1.5;
+          letter-spacing: 0.5rem;
+          font-weight: bold;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.over{
+          text-indent: 4em;
+          text-decoration: overline;
+          text-transform: lowercase;
+          text-align: justify;
+          line-height: 2;
+          word-spacing: 0.5rem;
+          font-weight:lighter;
+          font-family: monospace;
+}
+          
+.thr{
+          text-decoration: line-through;
+          text-transform: uppercase;
+          text-align: right;
+          line-height: 1;
+          word-spacing: 1.5rem;
+          font-weight: bolder;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+          
+
+}
+.leti{
+          color: brown;
+          font-family: "Rubik Vinyl", serif;
+          font-weight: 400;
+          font-style: normal;
+                  
+}
+main,p{
+          color: blue;
+          font-style: oblique;
+          
+}
+.container3,p{
+          color: red;
+}
+a{
+          text-decoration: none;
+          color: blue;
+          cursor: pointer;
+}
+a:hover,a:focus{
+          color: dodgerblue;
+          opacity: 0.5;
+}
+a:active{
+          color: brown;
+}
+a:visited{
+          color: green;
+}
+
+
