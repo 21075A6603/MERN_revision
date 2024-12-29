@@ -1,0 +1,32 @@
+/* .heading{
+          color: blue;
+} */
+.column{
+          /* column-count: 4;
+          column-width: 250px; */
+          margin-top:1rem ;
+          columns: 4 250px;
+          column-rule: 2px solid blue;
+          column-gap: 2rem;
+}
+.column p{
+          margin-top:0 ;
+}
+.heading{
+          color: white;
+          
+          background-color: black;
+          text-align: center;
+          padding: 1rem;
+          break-inside: avoid;
+          break-before: column;
+}
+.quote{
+          column-span: all;
+          text-align: center;
+          font-family: monospace;
+          font-size: 3rem;
+}
+.nowrap{
+          white-space: nowrap;
+}
