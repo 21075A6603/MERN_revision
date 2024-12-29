@@ -1,0 +1,102 @@
+.outercontainer{
+          border: 2px solid black;
+          /* background: blue; */
+          width: 85vw;
+          height: 85vh;
+          margin: 40px auto;
+          /* color: blue; */
+          position: relative;
+
+}
+.innercontainer{
+          border: 3px dashed blue;
+          width: 50vw;
+          height: 70vh;
+          margin: 65px auto;
+          /* position: relative; */
+
+}
+.box{
+          color: green;
+          width: 100px;
+          height: 100px;
+          padding: 1rem;
+          
+}
+.absolute{
+          background-color: pink;
+          position: absolute;
+          top: 0;
+          left: 0;
+}
+.rilative{
+          background-color: wheat;
+          position: relative;
+          top:100px;
+          left: 500px;
+}
+
+.fixed{
+          background-color: whitesmoke;
+          /* position: fixed; */
+          top: 10px;
+          left: 500px;
+}
+.sticky{
+          background-color:black;
+          position: sticky;
+          top: 10px;
+
+}
+section{
+          
+          height: 50vw;
+          color:red;
+          /* font-size: 2rem; */
+
+}
+header,footer,h2{
+          text-align: center;
+          font-size: 3rem;
+          height: 100px;
+
+}
+header{
+          position: sticky;
+          top: 0;
+
+}
+
+footer{
+          background-color: brown;
+          height: 4rem;
+          font-size: 2rem;
+          position: sticky;
+          bottom: 0;
+          display: inline-block;
+          width: 100%;
+          font-style: oblique;
+}
+
+button{
+          color: blue;
+          background-color: brown;
+          position: sticky;
+          top: 400px;
+          left: 0;
+          z-index: 1;
+          font-size: 2rem;
+}
+
+.blue{
+          background: blue;
+          
+}
+
+.red{
+          background: yellow;
+}
+.green{
+          background: green;
+}
+
