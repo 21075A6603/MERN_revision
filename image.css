@@ -1,0 +1,78 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body{
+          background-color:lightgrey;
+}
+.container{
+          background-color: #d7d8aa;
+          background-image: url("background.jpeg");
+          background-size:cover;
+          background-color:brown;
+          background-position: center;
+}
+.hero{
+          padding: 20px;
+          
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          /* text-align: center; */
+          gap: 30px;
+          background-color: rgba(0, 0, 0, 0.274);
+}
+
+
+h1{
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 2rem;
+          color: palevioletred;
+          text-shadow: 2px 3px 5px black;
+
+}
+.nowrap{
+          white-space: nowrap;
+}
+.profile-area{
+          width: 30%;
+}
+.profile-area img{
+          width: 100%;
+          min-width: 100px;
+          height: auto;
+          /* border-radius: 80%; */
+          border: 3px solid #9fa134;
+          border-radius: 50%;
+}
+.container2{
+          
+          margin-top: 10px;
+          height: 500px;
+          
+          background-image: url("bubbles.jpg"),linear-gradient(
+                    skyblue,
+                    lightpink
+          );
+          background-repeat: repeat;
+          background-position: right center;
+          background-size: 30% auto;
+
+}
+.container3{
+          min-width: 500px;
+          font-size: 10rem;
+          text-align: center;
+          background-image:linear-gradient(
+                    blue,
+                    skyblue,
+                    brown,
+                    lightpink,
+                    green,
+                    black
+          );
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+}

@@ -5,6 +5,7 @@
           /* column-count: 4;
           column-width: 250px; */
           margin-top:1rem ;
+          /* it includes count and width */
           columns: 4 250px;
           column-rule: 2px solid blue;
           column-gap: 2rem;
@@ -18,11 +19,14 @@
           background-color: black;
           text-align: center;
           padding: 1rem;
+          /* this will apply for the content inside of the lines
+          to break or to continuce to the next line */
           break-inside: avoid;
           break-before: column;
 }
 .quote{
-          column-span: all;
+          /* heading that covers all the column lines */
+          column-span:all;
           text-align: center;
           font-family: monospace;
           font-size: 3rem;

@@ -1,0 +1,40 @@
+.container{
+          min-height: 300px;
+          display: grid;
+          background-color:brown;
+          color: white;
+          /* grid-auto-flow: column; */
+          grid-template-columns: repeat(2,1fr 2fr);
+          grid-auto-rows: minmax(150px auto); 
+          row-gap: 1em;
+          column-gap: 1em;
+}
+.box{
+          background-color: black;
+          place-content: center;
+          text-align: center;
+}
+.box:first-child{
+          background-color: seagreen;
+          grid-column-start: 1;
+          grid-column-end: 3;
+}
+.box:nth-child(2){
+          background-color: chartreuse;
+          color: rgb(77, 35, 35);
+}
+.box:nth-child(3){
+          background-color: rgb(28, 187, 187);
+}
+.box:nth-child(4){
+          background-color: rgb(209, 194, 194);
+}
+.box:nth-child(5){
+          background-color: rgb(51, 35, 35);
+}
+.box:nth-child(6){
+          background-color: rgb(117, 46, 46);
+          grid-row-end: 4;
+
+
+}
